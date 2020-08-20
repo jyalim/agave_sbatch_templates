@@ -11,3 +11,6 @@ Symlinking Note:
     example_templates/ -> /var/www/ood/sys/myjobs
     templates/         -> /var/www/ood/sys/myjobs
 
+
+
+![ASU Research Computing Logo](assets/ASURC_logo.png)
