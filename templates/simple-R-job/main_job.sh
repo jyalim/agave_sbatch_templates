@@ -7,6 +7,7 @@
 #SBATCH --job-name=ood-template-simple-R
 #SBATCH --error=slurm.%j.err
 #SBATCH --output=slurm.%j.out
+#SBATCH --export=NONE         ## keep environment clean
 
 echo "WHERE I AM FROM: $SLURM_SUBMIT_DIR"
 echo "WHERE AM I NOW: $(pwd)"

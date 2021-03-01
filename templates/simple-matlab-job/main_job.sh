@@ -5,8 +5,9 @@
 #SBATCH -c 1        ## Number of Cores
 #SBATCH --time=5    ## 5 minutes of compute
 #SBATCH --job-name=simple-matlab-job
-#SBATCH --error=slurm.%j.err
-#SBATCH --output=slurm.%j.out
+#SBATCH --error=slurm.%j.err  ## %j is replaced with assigned job id 
+#SBATCH --output=slurm.%j.out ##
+#SBATCH --export=NONE         ## keep environment clean
 
 echo "WHERE I AM FROM: $SLURM_SUBMIT_DIR"
 echo "WHERE AM I NOW: $(pwd)"
