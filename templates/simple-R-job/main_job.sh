@@ -19,4 +19,4 @@ module purge
 echo "Loading R"
 module load r/4.0.2
 echo "Running example R script"
-R --no-save --quiet --slave <  hello.r
+R --no-save --quiet <  hello.r
