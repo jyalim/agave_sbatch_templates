@@ -1,5 +1,5 @@
 %% hello.m
-% A simple MATLAB script to demonstrate MATLAB sbatch scripts
+% MATLAB script to demonstrate sbatch scripts
 % ----------------------------------------------------------------------
 
 disp('Hello, World!')

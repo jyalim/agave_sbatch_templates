@@ -4,12 +4,12 @@
 # attributes set in the database for the newly created job
 
 # name of the template and default job name when copied
-name: Simple R Job
+name: Example R Job
 
 # notes tell the user what the template is for
 # and display when the user clicks "create Job ()Choose Template)" and selects
 # this template
-notes: A very basic R job template
+notes: Example R job template
 
 # specifies the script that will be submitted to the batch system
 script: main_job.sh # specify the job script

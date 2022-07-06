@@ -1,3 +1,3 @@
-# A simple R script to demonstrate R sbatch scripts
+# R script to demonstrate sbatch
 
 print("Hello World!")

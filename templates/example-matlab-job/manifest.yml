@@ -4,12 +4,12 @@
 # attributes set in the database for the newly created job
 
 # name of the template and default job name when copied
-name: Simple MATLAB Job
+name: Example MATLAB Job
 
 # notes tell the user what the template is for
 # and display when the user clicks "create Job ()Choose Template)" and selects
 # this template
-notes: A very basic MATLAB job template for a sequential job with optional adapter-specific headers
+notes: A MATLAB job template for a sequential job with optional adapter-specific headers
 
 # specifies the script that will be submitted to the batch system
 script: main_job.sh # specify the job script

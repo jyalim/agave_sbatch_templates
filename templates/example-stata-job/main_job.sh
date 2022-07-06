@@ -1,7 +1,7 @@
 #!/bin/bash 
 #SBATCH -c 1        ## Number of Cores
 #SBATCH --time=5    ## 5 minutes of compute 
-#SBATCH --job-name=ood-stata17-job
+#SBATCH --job-name=ood-example-stata17-job
 #SBATCH --output=slurm.%j.out  ## job /dev/stdout record (%j expands -> jobid)
 #SBATCH --error=slurm.%j.err   ## job /dev/stderr record 
 #SBATCH --mail-type=ALL        ## notify for any job state change

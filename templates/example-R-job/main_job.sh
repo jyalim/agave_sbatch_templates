@@ -1,11 +1,9 @@
 #!/bin/bash 
 #SBATCH -p serial  ## Partition
 #SBATCH -q normal  ## QOS
-#SBATCH -N 1       ## Number of Nodes
 #SBATCH -c 1       ## Number of Cores
 #SBATCH --time=5   ## 5 minutes of compute
-#SBATCH --job-name=ood-simple-R
-#SBATCH --mem-per-cpu=100M     
+#SBATCH --job-name=ood-example-R
 #SBATCH --output=slurm.%j.out  ## job /dev/stdout record (%j expands -> jobid)
 #SBATCH --error=slurm.%j.err   ## job /dev/stderr record 
 #SBATCH --export=NONE          ## keep environment clean
@@ -20,6 +18,6 @@ echo "Created output file with 'Hello World'"
 echo "Purging modules"
 module purge
 echo "Loading R"
-module load r/4.0.2
+module load r/4.0.2-BLAS
 echo "Running example R script"
 R --no-save --quiet <  hello.r

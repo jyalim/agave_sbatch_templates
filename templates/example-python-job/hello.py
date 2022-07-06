@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-A simple python script to demonstrate python sbatch scripts
+Python script to demonstrate python sbatch scripts
 """
 import datetime
 
